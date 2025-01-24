@@ -1,34 +1,41 @@
- **IPL Match Winner Prediction**
+# 🏏 IPL Match Winner Prediction
 
- **Overview**
-This project predicts the winner of an IPL match in real-time based on live match data such as runs scored, overs completed, wickets lost, and other contextual details. The solution uses **Logistic Regression** for classification and is deployed as an interactive web application using **Streamlit**. The model provides quick and accurate predictions to enhance the match experience for fans, analysts, and enthusiasts.
-
----
-
- **Features**
-- ✅ **Predict Match Outcomes**: Real-time predictions of match winners based on ongoing match conditions.
-- 📊 **Interactive Visualizations**: Displays key metrics and trends like run rates, remaining balls, and team performance.
-- 🚀 **User-Friendly Deployment**: Streamlit-based app for intuitive interaction with the prediction model.
+## 📌 Overview
+This project predicts the **winner of an IPL match in real-time** based on various match parameters such as **runs scored, wickets lost, overs played, and required run rate**. The model uses **Logistic Regression** for classification and is deployed using **Streamlit** for easy interaction.
 
 ---
 
- **Dataset**
-The project uses two datasets:
-
-1. **`matches.csv`**: Contains information about IPL matches, such as team names, match results, and scores.
-2. **`deliveries.csv`**: Provides ball-by-ball data, including runs scored, wickets lost, and individual player performances.
-
-**Dataset Details**
-| Dataset | Records | Columns |
-|---------|---------|---------|
-| `matches.csv` | 756 | 18 |
-| `deliveries.csv` | 179,078 | 21 |
+## 🚀 Features
+✔ **Real-Time Match Predictions** – Predicts the winner dynamically.  
+📊 **Interactive Visualizations** – Insights on run rates, wickets, and match progress.  
+🖥 **User-Friendly Deployment** – Built with **Streamlit** for seamless UI experience.  
 
 ---
 
- **Technologies Used**
-- **Python** 🐍: For data analysis and model building.
-- **Pandas & NumPy** 📊: Data manipulation and handling.
-- **Scikit-learn** 🤖: For implementing Logistic Regression.
-- **Matplotlib & Seaborn** 📈: Data visualization.
-- **Streamlit** 🌐: Deployment as a web application.
+## 📂 Dataset Description
+This project uses two key datasets:
+
+1. **`matches.csv`** – Contains match-level information (e.g., teams, results, venues).
+2. **`deliveries.csv`** – Contains ball-by-ball data (e.g., runs, wickets, bowlers, batsmen).
+
+| Dataset        | Records | Columns |
+|---------------|---------|---------|
+| `matches.csv`  | 756     | 18      |
+| `deliveries.csv` | 179,078 | 21      |
+
+---
+
+## 🔧 Technologies Used
+- **Python** 🐍 – Core programming language.
+- **Pandas & NumPy** 📊 – For data preprocessing.
+- **Scikit-learn** 🤖 – Logistic Regression model.
+- **Matplotlib & Seaborn** 📈 – Data visualization.
+- **Streamlit** 🌐 – Web-based deployment.
+
+---
+
+## ⚙ Installation & Setup
+### **1️⃣ Clone the Repository**
+```bash
+git clone https://github.com/yourusername/ipl-match-winner-prediction.git
+cd ipl-match-winner-prediction
